@@ -1,0 +1,17 @@
+.parent{
+    position: relative;
+}
+.parent img{
+    width:100%
+}
+.child{
+    border: 3px solid white;
+    width: 10%;
+    height: 15%;
+    position:absolute;
+    top: 50%;
+    left: 84%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 10px;
+}
